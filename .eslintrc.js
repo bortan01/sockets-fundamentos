@@ -9,7 +9,8 @@ module.exports = {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly",
         "__dirname": "readonly",
-        "process": "writable"
+        "process": "writable",
+        "$": "writable"
     },
     "parserOptions": {
         "ecmaVersion": 11
